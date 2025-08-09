@@ -1,0 +1,110 @@
+body{
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+}
+h1{
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: capitalize;
+}
+h2{
+	font-size: 25px;
+	text-align: center;
+	text: bold;
+	height: 15;
+}
+h3{
+	font-size: 20px;
+	text-align: left;
+	text: normal;
+}
+header{
+	height: 75px;
+	background-color: orange;
+	border: green;
+	}
+p{
+	font-size: 20px;
+	height: 15px;
+	padding-top: 30px;
+	text-align: left;
+}
+footer{
+	height: 60px;
+	padding-top: 30px;
+	text-align: center;
+	background-color: green;
+	border-top: orange;
+}
+nav{
+width: 100%;
+background-color: white;
+}
+nav ul{
+margin: 0px;
+padding: 0px;	
+}
+nav li{
+	list-style-type: none;
+	float: left;
+	
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: orangered;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.table{
+	display: table;
+	margin: 0 auto;
+}
+.menu-ind:hover{
+	border-top: 2px solid rgba(252,242,188,1.00);
+	background-color: lightseagreen;
+}
+.menu-apro:hover{
+	border-top: 2px solid rgba(252,242,188,1.00);
+	background-color: lightseagreen;
+}
+.menu-con:hover{
+	border-top: 2px solid rgba(252,242,188,1.00);
+	background-color: lightseagreen;
+}
+.menu-car:hover{
+	border-top: 2px solid rgba(252,242,188,1.00);
+	background-color: lightseagreen;
+}
+.menu-donn:hover{
+	border-top: 2px solid rgba(252,242,188,1.00);
+	background-color: lightseagreen;
+}
+nav li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+
+
+
+@media screen and (max-width: 780px){
+	header{
+		height: 50px;
+	}
+	h1{
+		font-size: 28px;
+		margin: 20px 0px 0px;
+	}
+	nav li a{
+		font-size: 12px;
+		padding: 10px;
+	}
+	nav li:hover a{
+		padding: 5px 10px 10px 10px;
+	}
+}
