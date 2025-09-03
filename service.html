@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Services personnalisés - Club SIG Topo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+  <!-- Header -->
+  <header><h1 class="text-2xl font-bold">🌍 Club SIG Topo</h1></header>
+
+  <!-- Hero section -->
+  <section class="bg-gradient-to-r from-green-400 to-blue-500 text-white py-16 text-center">
+    <h2 class="text-4xl font-extrabold mb-4">Services personnalisés SIG</h2>
+    <p class="max-w-2xl mx-auto text-lg">
+      Des solutions cartographiques adaptées aux besoins des ONG, Collectivités, Chercheurs et Entreprises au Niger.
+    </p>
+  </section>
+
+  <!-- Services proposés -->
+  <section class="max-w-6xl mx-auto px-6 py-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition">
+      <h3 class="text-xl font-semibold mb-2">🗺️ Cartes thématiques</h3>
+      <p>Occupation du sol, zonage urbain, climat, réseau routier, densité de population et bien plus.</p>
+    </div>
+    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition">
+      <h3 class="text-xl font-semibold mb-2">📊 Analyses spatiales</h3>
+      <p>Études de proximité, accessibilité, densité, statistiques spatiales pour vos projets.</p>
+    </div>
+    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition">
+      <h3 class="text-xl font-semibold mb-2">🌐 WebSIG interactif</h3>
+      <p>Création de plateformes cartographiques interactives pour partager vos données en ligne.</p>
+    </div>
+    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition">
+      <h3 class="text-xl font-semibold mb-2">🎯 Cartes sur demande</h3>
+      <p>Des cartes personnalisées selon vos thématiques, vos zones d’intervention et vos objectifs.</p>
+    </div>
+    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition">
+      <h3 class="text-xl font-semibold mb-2">📍 Géocodage & GPS</h3>
+      <p>Localisation précise, suivi des projets et intégration de données GPS.</p>
+    </div>
+    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition">
+      <h3 class="text-xl font-semibold mb-2">🎓 Formations SIG</h3>
+      <p>Ateliers et formations en SIG, QGIS, télédétection et gestion de données géospatiales.</p>
+    </div>
+  </section>
+
+  <!-- Formulaire de demande -->
+  <section class="bg-gray-100 py-16">
+    <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg p-8">
+      <h3 class="text-2xl font-bold mb-4 text-center text-gray-700">📩 Demander un service personnalisé</h3>
+      <p class="text-gray-600 mb-6 text-center">Remplissez ce formulaire et nous vous contacterons rapidement.</p>
+
+      <form action="mailto:abdou.kantakaigamakiari@gmail.com" method="post" enctype="text/plain" class="space-y-4">
+        <div>
+          <label class="block font-medium">Nom complet</label>
+          <input type="text" name="nom" required
+                 class="w-full p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div>
+          <label class="block font-medium">Email</label>
+          <input type="email" name="email" required
+                 class="w-full p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div>
+          <label class="block font-medium">Organisation</label>
+          <input type="text" name="organisation"
+                 class="w-full p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div>
+          <label class="block font-medium">Description de la carte ou du service souhaité</label>
+          <textarea name="demande" rows="5" required
+                    class="w-full p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
+        <button type="submit"
+                class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition">
+          Envoyer ma demande
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>Club SIG Topo © Copyright 2025 - Tous droits réservés.</footer>
+
+</body>
+</html>
